@@ -1,9 +1,7 @@
 // DEPENDENCIES
-
 const path = require("path");
 
 // ROUTING
-
 module.exports = function (app) {
   // HTML GET Requests
   app.get("/notes", function (req, res) {
