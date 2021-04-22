@@ -113,7 +113,7 @@ const renderNoteList = function (notes) {
     const $delBtn = $(
       "<i class='fas fa-trash-alt float-right text-danger delete-note'>"
     );
- 
+
     $li.append($span, $delBtn);
     noteListItems.push($li);
   }
@@ -134,6 +134,5 @@ $newNoteBtn.on("click", handleNewNoteView);
 $noteList.on("click", ".delete-note", handleNoteDelete);
 $noteTitle.on("keyup", handleRenderSaveBtn);
 $noteText.on("keyup", handleRenderSaveBtn);
-
 
 getAndRenderNotes();
