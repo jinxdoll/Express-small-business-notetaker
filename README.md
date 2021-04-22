@@ -42,7 +42,7 @@ Application enabled using the following sources:
 
 # Author
 
-- [Aimee Mattson](https://github.com/jinxdoll/Express-small-business-notetaker)
+- [Aimee Mattson](https://jinxdoll.github.io/Express-small-business-notetaker)
 - [Portfolio](https://jinxdoll.github.io/HW-2-portfolio-mattsonaimee/)
 - [LinkedIn](https://www.linkedin.com/in/aimee-mattson-bb060398/)
 
