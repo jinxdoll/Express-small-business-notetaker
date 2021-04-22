@@ -14,12 +14,12 @@ module.exports = function (app) {
 
   // API POST Requests
   app.post("/api/notes", function (req, res) {
-    const userNotes = req.body;
+    const newNote = req.body;
 
     fs.readFile("./db/db.json", (err, data) => {
       if (err) throw err;
       dbData = JSON.parse(data);
-      dbData.push(userNotes);
+      dbData.push(newNote);
       let number = 1;
       dbData.forEach((note, index) => {
         note.id = number;
@@ -32,9 +32,11 @@ module.exports = function (app) {
 
       fs.writeFile("./db/db.json", stringData, (err, data) => {
         if (err) throw err;
+        console.log("Error at line 35" + err)
+        
       });
     });
-    res.send("Thank you for your note!");
+    res.send("Your note was saved!");
   });
 
   // API DELETE Requests
