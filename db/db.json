@@ -1,20 +1,18 @@
 [
   {
-    "title": "Note 1",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "title": "Doctor's appointment",
+    "text": "Fridat at 3:00 PM. ",
     "id": 1
   },
   {
-    "title": "Note 2",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "title": "Ballet Class ",
+    "text": "Remember to bring extra clothes for practice.",
     "id": 2
   },
   {
-    "title": "Note 3",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "title": "Stop by grocery store after ballet class",
+    "text": "Pick up milk",
     "id": 3
-  },
-  { "title": "Aimee's new note.", "text": "Hello hello hello", "id": 4 },
-  { "title": "123", "text": "132", "id": 5 },
-  { "title": "a", "text": "s", "id": 6 }
+  }
+
 ]
