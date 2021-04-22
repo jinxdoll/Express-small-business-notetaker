@@ -1,7 +1,7 @@
+// Dependencies
 const fs = require("fs");
 
 // ROUTING
-
 module.exports = function (app) {
   // API GET Requests
   app.get("/api/notes", function (req, res) {
@@ -13,7 +13,6 @@ module.exports = function (app) {
   });
 
   // API POST Requests
-
   app.post("/api/notes", function (req, res) {
     const userNotes = req.body;
 
